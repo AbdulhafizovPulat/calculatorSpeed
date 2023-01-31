@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD"
+      crossorigin="anonymous"
+    />
+    <link rel="stylesheet" href="./css/main.css" />
+    <title>Document</title>
+  </head>
+  <body>
+    <div class="container">
+      <h1 class="my-5">Kim birinchi bo-rish-ga!</h1>
+      <form class="form w-50" id="form" action="#">
+        <label class="form d-flex gap-4 w-100" for="way">
+          Masofa
+          <input
+            class="form-control w-50"
+            type="text"
+            id="input"
+            placeholder="km"
+          />
+          <button class="form-control btn btn-outline-dark w-25">
+            Hisobla
+          </button>
+        </label>
+        <p class="my-4" id="warn">Son kiriting!</p>
+      </form>
+      <ul class="list d-flex gap-3">
+        <li class="list__item" id="manResult">
+          <h2>Piyoda</h2>
+          <p class="list__text">N soat</p>
+        </li>
+        <li class="list__item" id="bycicleResult">
+          <h2>Velosiped</h2>
+          <p class="list__text">N soat</p>
+        </li>
+        <li class="list__item" id="carResult">
+          <h2>Moshina</h2>
+          <p class="list__text">N soat</p>
+        </li>
+        <li class="list__item" id="planeResult">
+          <h2>Samolyot</h2>
+          <p class="list__text">N soat</p>
+        </li>
+      </ul>
+    </div>
+
+    <script src="./js/main.js"></script>
+  </body>
+</html>

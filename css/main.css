@@ -1,0 +1,23 @@
+* {
+  list-style: none;
+  text-decoration: none;
+}
+
+.list {
+  width: 80%;
+  padding-left: 0;
+}
+.list__item {
+  width: 17%;
+  padding: 15px 0;
+  border: 1px solid black;
+  border-radius: 15px;
+  text-align: center;
+}
+.list__item:hover {
+  background-color: darkcyan;
+  color: floralwhite;
+}
+.list__text {
+  font-size: 20px;
+}/*# sourceMappingURL=main.css.map */
